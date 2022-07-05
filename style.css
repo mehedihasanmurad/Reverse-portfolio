@@ -38,3 +38,74 @@ h1{
     text-decoration: none;
     font-weight: 700;
 }
+.flexible-container{
+    display: flex;
+    background-image:url(images/shapes/7.png);
+    margin-top: 200px;
+    background-repeat: no-repeat;
+}
+.first{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 80px;
+    padding-left: 40px;
+}
+.new-line img{
+    width: 300px;
+    padding-top: 70px;
+    padding-left: 170px;
+}
+.first p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.recipies{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.recipies h1{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.food{
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.food-title{
+    
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+}
+.food-title img{
+    width: 100%;
+}
+.super{
+    width: 80%;
+    display: flex;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.like {
+    padding: 20px 80px;
+}
+footer{
+    background-color: black;
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+    padding: 20px;
+}
+footer p{
+    padding: 20px;
+}
